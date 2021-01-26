@@ -90,7 +90,7 @@ docker push --disable-content-trust="$DISABLE_TRUST" "$TARGET_REPO"/"$TARGET_ORG
 docker push --disable-content-trust="$DISABLE_TRUST" "$TARGET_REPO"/"$TARGET_ORG"/validator:"$OUTPUT_TAG" || success=$(echo "validator" >> "${tmpfile}"; echo 1)
 docker push --disable-content-trust="$DISABLE_TRUST" "$TARGET_REPO"/"$TARGET_ORG"/validator_tcb:"$OUTPUT_TAG" || success=$(echo "validator_tcb" >> "${tmpfile}"; echo 1)
 docker push --disable-content-trust="$DISABLE_TRUST" "$TARGET_REPO"/"$TARGET_ORG"/cluster_test:"$OUTPUT_TAG" || success=$(echo "cluster_test" >> "${tmpfile}"; echo 1)
-docker push --disable-content-trust="$DISABLE_TRUST" "$TARGET_REPO"/"$TARGET_ORG"/client:"$OUTPUT_TAG" || success=$(echo "client" >> "${tmpfile}"; echo 1)
+docker push --disable-content-trust="$DISABLE_TRUST" "$TARGET_REPO"/"$TARGET_ORG"/client1:"$OUTPUT_TAG" || success=$(echo "client1" >> "${tmpfile}"; echo 1)
 
 if [[ "$success" == "1" ]]; then
   cat "${tmpfile}"
