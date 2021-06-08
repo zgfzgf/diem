@@ -22,4 +22,4 @@ tokio = { version = "1.1.1", features = ["full"] }
 diem-workspace-hack = { path = "../../../common/workspace-hack", version = "0.1.0" }
 diem-client = { path = "../../../sdk/client", version = "0.1.0" }
 diem-types = { path = "../../../types", version = "0.1.0" }
-bcs = "0.1.2"
+bcs = "0.1.3"
