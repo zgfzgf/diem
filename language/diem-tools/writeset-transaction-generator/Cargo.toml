@@ -27,7 +27,7 @@ diem-types = { path = "../../../types", version = "0.1.0" }
 compiled-stdlib = { path = "../../stdlib/compiled",  version = "0.1.0" }
 stdlib = { path = "../../stdlib", version = "0.1.0" }
 move-lang = { path = "../../move-lang", version = "0.0.1" }
-bcs = "0.1.2"
+bcs = "0.1.3"
 diem-state-view = { path = "../../../storage/state-view", version = "0.1.0" }
 diem-validator-interface = { path = "../diem-validator-interface", version = "0.1.0" }
 diem-transaction-replay = { path = "../transaction-replay", version = "0.1.0" }
